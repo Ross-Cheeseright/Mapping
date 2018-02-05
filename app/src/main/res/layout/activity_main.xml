@@ -4,6 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
+<!--
         <RelativeLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -62,7 +63,7 @@
             android:id="@+id/btn1"
             android:text="@string/goBtn"
             android:layout_alignParentRight="true"/>
-
+-->
         <org.osmdroid.views.MapView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

@@ -1,0 +1,67 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                >
+                    <EditText
+                        android:paddingTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal|numberSigned"
+                        android:ems="10"
+                        android:id="@+id/et1"
+                        android:layout_toRightOf="@+id/tv2"
+                        />
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:paddingTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/inputLat"
+                        android:layout_alignParentLeft="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:paddingBottom="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+                    <EditText
+                        android:ems="10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal|numberSigned"
+                        android:id="@+id/et2"
+                        android:layout_toRightOf="@+id/tv1"/>
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:paddingTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/inputLon"
+                        android:layout_alignParentLeft="true"
+                        />
+            </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:text="@string/goBtn" />
+
+
+</LinearLayout>
